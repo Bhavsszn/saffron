@@ -1,0 +1,7 @@
+librosa==0.10.2
+soundfile>=0.12
+pydub==0.25.1         # wraps FFmpeg
+pyrubberband==0.4.0   # high-quality time-stretch / pitch-shift
+networkx==3.3
+click==8.1.7
+tqdm==4.66.2
