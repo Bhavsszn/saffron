@@ -1,4 +1,4 @@
-# Data Analyst Job Market Dashboard
+# Job Market Dashboard
 
 ## Introduction
 This project demonstrates the cumulative skills learned in my Computer Science program by building an interactive dashboard that analyzes the data analyst job market. The dashboard highlights:
