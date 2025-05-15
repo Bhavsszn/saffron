@@ -9,6 +9,21 @@ This project demonstrates the cumulative skills learned in my Computer Science p
 
 *Dataset explored interactively with (https://drive.google.com/drive/folders/12f6YdpTguBmocpmCqBaB8zDrT4rovCxx?usp=sharing)
 
+## Folders
+
+
+- [`.vscode/`](./.vscode/) — VSCode settings (optional)
+- [csv_files/](./csv_files/) — Raw and converted CSV data
+- [project_sql/](./project_sql/) — SQL files for interactive filters in the dashboard
+- [sql_load/](./sql_load/) — ETL pipeline scripts, run in numeric order
+- [docs/](./docs/) — Supporting documentation
+- [slides/](./slides/) — Final presentation deck
+- [dashboard.py](./dashboard.py) — Main Streamlit application
+- [requirements.txt](./requirements.txt) — Python package requirements
+
+
+
+
 ## Repository Structure
 ```
 Job_Analysis/
@@ -50,26 +65,6 @@ Job_Analysis/
 ├── dashboard.py                  # Main Streamlit application
 └── requirements.txt              # Python package requirements
 ```
-
-##Folders:
-
-.vscode/ — VSCode settings (optional)
-
-csv_files/ — Raw and converted CSV data
-
-project_sql/ — SQL files for interactive filters in the dashboard
-
-sql_load/ — ETL pipeline scripts, run in numeric order
-
-docs/ — Supporting documentation
-
-slides/ — Final presentation deck
-
-dashboard.py — Main Streamlit application
-
-requirements.txt — Python package requirements
-
-
 
 ## Installation & Setup
 1. **Clone the repo** and navigate into it:
