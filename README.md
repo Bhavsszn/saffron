@@ -7,7 +7,7 @@ This project demonstrates the cumulative skills learned in my Computer Science p
 - **In-Demand Skills**: Show which skills are most frequently requested.
 - **Optimal Skills to Learn**: Combine demand and salary to recommend skills.
 
-*Dataset explored interactively with [SQLiteViz Workspace](https://sqliteviz.com/app/#/workspace?hide_schema=1)*
+*Dataset explored interactively with [[SQLiteViz Workspace](https://sqliteviz.com/app/#/workspace?hide_schema=1)*](https://sqliteviz.com/app/#/workspace?hide_schema=1)
 
 ## Repository Structure
 ```
