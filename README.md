@@ -57,8 +57,8 @@ Job_Analysis/
 │   ├── ER_diagram.png            # Entity-Relationship Diagram
 │   └── data_flow.png             # Data Flow Diagram
 │
-├── slides/                       # (Your final presentation deck)
-│   └── Data_Analyst_Dashboard.pptx
+├── slides/                       
+│   └──Job_Dashboard.pptx
 │
 ├── dashboard.py                  # Main Streamlit application
 └── requirements.txt              # Python package requirements
