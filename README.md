@@ -1,3 +1,49 @@
+## Repository Structure
+
+```text
+Job_Analysis/
+│
+├── [`.vscode/`](./.vscode/)              # VSCode settings (optional)
+│   └── settings.json
+│
+├── [`csv_files/`](./csv_files/)          # Raw and converted CSV data
+│   ├── company_dim.csv
+│   ├── company_dim_utf8.csv
+│   ├── job_postings_fact.csv
+│   ├── job_postings_fact_utf8.csv
+│   ├── skills_dim.csv
+│   └── skills_job_dim.csv
+│
+├── [`project_sql/`](./project_sql/)      # SQL files for interactive filters in the dashboard
+│   ├── 4_create_views.sql
+│   ├── 4_subqueries.sql
+│   ├── Sql tutorial.sql
+│   └── any other `.sql` filters
+│
+├── [`sql_load/`](./sql_load/)            # ETL pipeline scripts, run in numeric order
+│   ├── 1_create_database.sql
+│   ├── 2_create_tables.sql
+│   ├── 3_import_project_sql.sql
+│   ├── 3_modify_tables.sql
+│   ├── 4_create_dashboard_tables.sql
+│   └── 5_rebuild_optimal_skills.sql
+│
+├── [`docs/`](./docs/)                    # Supporting documentation
+│   ├── README.md                         # Executive summary, setup, dataset link, S&P, index
+│   ├── effort_log.md                     # Timeline of milestones, challenges, fixes
+│   ├── ER_diagram.png                    # Entity-Relationship Diagram
+│   └── data_flow.png                     # Data Flow Diagram
+│
+├── [`slides/`](./slides/)                # Your final presentation deck
+│   └── Data_Analyst_Dashboard.pptx
+│
+├── [`dashboard.py`](./dashboard.py)      # Main Streamlit application
+└── [`requirements.txt`](./requirements.txt)  # Python package requirements
+
+
+
+
+
 # Data Analyst Job Market Dashboard
 
 ## Introduction
