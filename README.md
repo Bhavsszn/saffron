@@ -11,8 +11,6 @@ This project demonstrates the cumulative skills learned in my Computer Science p
 
 ## Folders
 
-
-- [`.vscode/`](./.vscode/) — VSCode settings (optional)
 - [csv_files/](./csv_files/) — Raw and converted CSV data
 - [project_sql/](./project_sql/) — SQL files for interactive filters in the dashboard
 - [sql_load/](./sql_load/) — ETL pipeline scripts, run in numeric order
