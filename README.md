@@ -71,7 +71,7 @@ Job_Analysis/
 All SQL and Python code adhere to the following:
 
 - **Python**: PEP8 styling, `black` formatting, `flake8` linting.
-- **SQL**: Lowercase keywords, 4-space indentation, semicolons at end of statements, checked with `sqlfluff`.
+- **SQL**: Use UPPERCASE for SQL keywords, 4-space indentation, semicolons at end of statements, checked with `sqlfluff`.
 - **Version Control**: Commits are atomic and descriptive.
 
 ## Documentation of Effort
