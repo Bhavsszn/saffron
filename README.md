@@ -51,6 +51,26 @@ Job_Analysis/
 └── requirements.txt              # Python package requirements
 ```
 
+##Folders:
+
+.vscode/ — VSCode settings (optional)
+
+csv_files/ — Raw and converted CSV data
+
+project_sql/ — SQL files for interactive filters in the dashboard
+
+sql_load/ — ETL pipeline scripts, run in numeric order
+
+docs/ — Supporting documentation
+
+slides/ — Final presentation deck
+
+dashboard.py — Main Streamlit application
+
+requirements.txt — Python package requirements
+
+
+
 ## Installation & Setup
 1. **Clone the repo** and navigate into it:
    ```bash
