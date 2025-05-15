@@ -11,36 +11,44 @@ This project demonstrates the cumulative skills learned in my Computer Science p
 
 ## Repository Structure
 ```
-your-repo/
-├─ .gitignore
-├─ README.md
-├─ requirements.txt
-├─ slides/
-│   └─ presentation.pptx
-├─ docs/
-│   ├─ ER_diagram.png
-│   ├─ data_flow.png
-│   └─ effort_log.md
-├─ csv_files/
-│   ├─ company_dim.csv
-│   ├─ company_dim_utf8.csv
-│   ├─ job_postings_fact.csv
-│   ├─ job_postings_fact_utf8.csv
-│   ├─ skills_dim.csv
-│   ├─ skills_job_dim.csv
-│   └─ convert_to_utf8.py
-├─ sql_load/
-│   ├─ 1_create_dimensional_model.sql
-│   ├─ 2_import_dimensional_model.sql
-│   ├─ 3_import_dashboard_data.sql
-│   └─ 4_create_dashboard_tables.sql
-├─ project_sql/
-│   ├─ top_paying_jobs.sql
-│   ├─ top_paying_skills.sql
-│   ├─ top_paying_job_skills.sql
-│   └─ optimal_skills.sql
-├─ dashboard.py
-└─ .pre-commit-config.yaml
+Job_Analysis/
+│
+├── .vscode/                      # VSCode settings (optional)
+│   └── settings.json
+│
+├── csv_files/                    # Raw and converted CSV data
+│   ├── company_dim.csv
+│   ├── company_dim_utf8.csv
+│   ├── job_postings_fact.csv
+│   ├── job_postings_fact_utf8.csv
+│   ├── skills_dim.csv
+│   └── skills_job_dim.csv
+│
+├── project_sql/                  # SQL files for interactive filters in the dashboard
+│   ├── 4_create_views.sql
+│   ├── 4_subqueries.sql
+│   ├── Sql tutorial.sql
+│   └── (any other custom .sql filters)
+│
+├── sql_load/                     # ETL pipeline scripts, run in numeric order
+│   ├── 1_create_database.sql
+│   ├── 2_create_tables.sql
+│   ├── 3_import_project_sql.sql
+│   ├── 3_modify_tables.sql
+│   ├── 4_create_dashboard_tables.sql
+|   ├── 5_rebuild_optimal_skills.sql
+│
+├── docs/                         # Supporting documentation
+│   ├── README.md                 # Executive summary, setup, dataset link, S&P, index
+│   ├── effort_log.md             # Timeline of milestones, challenges, fixes
+│   ├── ER_diagram.png            # Entity-Relationship Diagram
+│   └── data_flow.png             # Data Flow Diagram
+│
+├── slides/                       # (Your final presentation deck)
+│   └── Data_Analyst_Dashboard.pptx
+│
+├── dashboard.py                  # Main Streamlit application
+└── requirements.txt              # Python package requirements
 ```
 
 ## Installation & Setup
